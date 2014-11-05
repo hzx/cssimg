@@ -1,0 +1,4 @@
+CC = clang++
+OPT += -Wall -O2 -std=c++11
+CFLAGS += -I$(TUP_CWD)/cssimg -I/usr/local/include -c
+LFLAGS += -L$(TUP_CWD)/cssimg -L/usr/local/lib

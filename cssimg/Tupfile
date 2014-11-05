@@ -1,0 +1,4 @@
+include_rules
+
+: foreach *.cpp |> $(CC) $(OPT) $(CFLAGS) -o %o %f |> %B.o {objs}
+: {objs} |> $(CC) $(LFLAGS) -o %o %f |> %d
