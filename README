@@ -1,0 +1,8 @@
+cssimg - little utility to inline images (convert to base64) to css
+
+-I path - search path
+-o dest - destination file
+
+css rules, for example for background-image
+url(img/common/bg.png) image will be inlined
+url("img/common/bg.png") as is
